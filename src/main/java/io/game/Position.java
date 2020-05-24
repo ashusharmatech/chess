@@ -1,5 +1,7 @@
 package io.game;
 
+import io.game.pieces.Offset;
+
 public class Position {
     private static final char A = 'A';
     private static final char H = 'H';
@@ -16,6 +18,16 @@ public class Position {
             this.column = position.charAt(0);
             this.row = Integer.parseInt(String.valueOf(position.charAt(1)));
         }
+    }
+
+
+    public Position getNewPosition(Offset offset) {
+        int newRow = this.row + offset.getRow();
+        char newCol = (char) (this.column + offset.getColumn());
+        if (newCol >= A && newCol <= H && newRow >= 1 && newRow <= 8) {
+            return new Position(newCol, newRow);
+        }
+        return null;
     }
 
     @Override
