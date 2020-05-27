@@ -1,6 +1,7 @@
 # Chess
 
 ![Java CI with Maven](https://github.com/ashusharmatech/chess/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Codecov Coverage](https://codecov.io/gh/ashusharmatech/chess/branch/master/graph/badge.svg)
 
 This program tries to find all the possible moves of Chess pieces on an empty board.
 
