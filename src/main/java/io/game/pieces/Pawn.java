@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Pawn extends Piece {
 
-    int[] row = new int[]{1};
-    int[] col = new int[]{0};
+    private int[] row = new int[]{1};
+    private int[] col = new int[]{0};
 
 
     @Override

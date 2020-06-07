@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Horse extends Piece {
 
-    int[] row = {2, 1, -1, -2, -2, -1, 1, 2};
-    int[] col = {1, 2, 2, 1, -1, -2, -2, -1};
+    private int[] row = {2, 1, -1, -2, -2, -1, 1, 2};
+    private int[] col = {1, 2, 2, 1, -1, -2, -2, -1};
 
     @Override
     public ArrayList<Offset> getOffsets() {

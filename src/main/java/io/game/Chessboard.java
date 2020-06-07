@@ -15,7 +15,6 @@ public class Chessboard {
     private static Piece piece;
     private static Position position;
 
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         process(br.readLine());
@@ -45,17 +44,17 @@ public class Chessboard {
     }
 
     public static Piece parsePiece(String strPiece) throws IllegalArgumentException {
-        if (strPiece.equals("King")) {
+        if ("King".equals(strPiece)) {
             return PieceType.KING.create();
-        } else if (strPiece.equals("Queen")) {
+        } else if ("Queen".equals(strPiece)) {
             return PieceType.QUEEN.create();
-        } else if (strPiece.equals("Bishop")) {
+        } else if ("Bishop".equals(strPiece)) {
             return PieceType.BISHOP.create();
-        } else if (strPiece.equals("Horse")) {
+        } else if ("Horse".equals(strPiece)) {
             return PieceType.HORSE.create();
-        } else if (strPiece.equals("Rook")) {
+        } else if ("Rook".equals(strPiece)) {
             return PieceType.ROOK.create();
-        } else if (strPiece.equals("Pawn")) {
+        } else if ("Pawn".equals(strPiece)) {
             return PieceType.PAWN.create();
         } else {
             throw new IllegalArgumentException("Invalid Input");
