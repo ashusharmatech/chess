@@ -10,7 +10,7 @@ This program tries to find all the possible moves of Chess pieces on an empty bo
 
 You can run your application using a simple java program:
 
-Main Java class is: [ChessboardTest.java](src/test/java/io/game/ChessboardTest.java)
+Main Java class is: [Chessboard.java](src/java/io/game/Chessboard.java)
 
 ### Create a JAR file
 If you want to create an executable JAR file out of our project. 
