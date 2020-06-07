@@ -1,5 +1,7 @@
 # Chess
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b57c2252bdf6442d969f261f65085337)](https://app.codacy.com/manual/email2ashusharma/chess?utm_source=github.com&utm_medium=referral&utm_content=ashusharmatech/chess&utm_campaign=Badge_Grade_Settings)
+
 ![Java CI with Maven](https://github.com/ashusharmatech/chess/workflows/Java%20CI%20with%20Maven/badge.svg)
 ![Codecov Coverage](https://codecov.io/gh/ashusharmatech/chess/branch/master/graph/badge.svg)
 
