@@ -63,7 +63,7 @@ public class ChessboardTest {
     }
 
     @Test
-    @DisplayName("When Horse has all 8 directions to move. expected Null")
+    @DisplayName("When Horse has all 8 directions to move. expected Ok")
     public void whenHorseHasAll8DirectionMoves() {
         final List<String> nextPositions = chessboard.findAllNextPositions(PieceType.HORSE.create(), new Position("E3"));
         assertThat(nextPositions, Matchers.hasSize(8));
